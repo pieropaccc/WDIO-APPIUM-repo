@@ -12,6 +12,8 @@
 
 Automation framework for mobile UI testing built with WebdriverIO + Appium following best practices used in real QA automation projects.
 
+
+
 🚀 Tech Stack
 
 WebdriverIO
@@ -25,6 +27,8 @@ Allure Reports
 Android Emulator
 
 
+
+
 🧪 What is tested
 
 Automated tests cover 2 key flows of the application:
@@ -32,6 +36,8 @@ Automated tests cover 2 key flows of the application:
 - Scrolling and Searching for the first Featured Article in Feed Page
 
 - Saving article to reading list 
+
+
 
 
 🏗 Framework Architecture
@@ -45,11 +51,14 @@ Structure is:
 -Specs
 
 
+
+
 Pages → Page Object classes
 
 Specs → Test cases
 
 wdio.conf.js → framework configuration
+
 
 
 
@@ -62,6 +71,8 @@ Run report:
 npm run report
 
 
+
+
 📱 Test Environment
 
 Android Emulator
@@ -69,6 +80,9 @@ Android Emulator
 Android version: X
 
 App tested: Wikipedia mobile app
+
+
+
 
 
 🎯 Purpose of this project
@@ -82,6 +96,9 @@ WebdriverIO + Appium usage
 Page Object Model
 
 Test reporting with Allure
+
+
+
 
 👨‍💻 Author
 
