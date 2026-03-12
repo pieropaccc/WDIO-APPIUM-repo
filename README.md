@@ -8,98 +8,73 @@
 
 
 
-📱 Mobile Test Automation Framework
+# 📱 Mobile Test Automation Framework
 
-Automation framework for mobile UI testing built with WebdriverIO + Appium following best practices used in real QA automation projects.
+Automation framework for **mobile UI testing** built with **WebdriverIO + Appium**, following best practices used in real QA automation projects.
 
+---
 
+# 🚀 Tech Stack
 
-🚀 Tech Stack
+- **WebdriverIO**
+- **Appium**
+- **JavaScript / Node.js**
+- **Allure Reports**
+- **Android Emulator**
 
-WebdriverIO
+---
 
-Appium
+# 🧪 What is Tested
 
-JavaScript / Node.js
+Automated tests cover **two key flows** of the application:
 
-Allure Reports
+- Scrolling and searching for the **first Featured Article** on the Feed page  
+- Saving an article to the **reading list**
 
-Android Emulator
+---
 
+# 🏗 Framework Architecture
 
+The project follows the **Page Object Model (POM)** to create **maintainable and scalable test automation**.
 
+### Project Structure
 
-🧪 What is tested
+- **Pages**
+- **Specs**
 
-Automated tests cover 2 key flows of the application:
+**Pages →** Page Object classes  
+**Specs →** Test cases  
+**wdio.conf.js →** Framework configuration
 
-- Scrolling and Searching for the first Featured Article in Feed Page
+---
 
-- Saving article to reading list 
-
-
-
-
-🏗 Framework Architecture
-
-The project follows Page Object Model (POM) for maintainable test automation.
-
-Structure is: 
-
--Pages
-
--Specs
-
-
-
-
-Pages → Page Object classes
-
-Specs → Test cases
-
-wdio.conf.js → framework configuration
+# 📊 Reporting
+Test results are generated using **Allure Reports**.
 
 
 
+# 📱 Test Environment
 
-📊 Reporting
+- **Android Emulator**
+- **Android Version:** X
+- **App Tested:** Wikipedia mobile app
 
-Test results are generated using Allure Reports.
+---
 
-Run report:
+# 🎯 Purpose of This Project
 
-npm run report
+This project was created as part of my **QA Automation portfolio** to demonstrate:
 
+- **Mobile test automation**
+- **WebdriverIO + Appium usage**
+- **Page Object Model**
+- **Test reporting with Allure**
 
+---
 
+# 👨‍💻 Author
 
-📱 Test Environment
-
-Android Emulator
-
-Android version: X
-
-App tested: Wikipedia mobile app
-
-
-
-
-
-🎯 Purpose of this project
-
-This project was created as part of my QA Automation portfolio to demonstrate:
-
-Mobile test automation
-
-WebdriverIO + Appium usage
-
-Page Object Model
-
-Test reporting with Allure
+**Piero Pacella**  
+https://www.linkedin.com/in/piero-pacella-qa
 
 
-
-
-👨‍💻 Author
-
-Piero Pacella, https://www.linkedin.com/in/piero-pacella-qa
